@@ -1,0 +1,18 @@
+{
+    "name": "kpodjison/unicreditpayment",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kpodjison\\Unicreditpayment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kpodji Emmanuel K.",
+            "email": "jeevista@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
