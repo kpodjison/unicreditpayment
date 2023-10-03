@@ -1,7 +1,7 @@
 <?php
 
 namespace Kpodjison\Unicreditpayment\Payment\UniCreditPay;
-use src\Payment\Payer;
+use Kpodjison\Unicreditpayment\Payment\Payer;
 use src\UniCredit\IGFS_CG_API\init\IgfsCgInit;
 
 class UniCredit implements Payer

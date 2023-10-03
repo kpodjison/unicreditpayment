@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Payment;
+namespace Kpodjison\Unicreditpayment\Payment;
 
 interface Payer
 {
