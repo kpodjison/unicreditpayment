@@ -1,6 +1,6 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API\init;
-use src\UniCredit\IGFS_CG_API\IgfsUtils;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsUtils;
 use SimpleXMLElement;
 
 class SelectorTerminalInfo {

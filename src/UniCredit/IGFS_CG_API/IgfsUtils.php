@@ -1,10 +1,10 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API;
-use App\UniCredit\IGFS_CG_API\Exception;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\Exception;
 use DateTime;
-use function App\UniCredit\IGFS_CG_API\parseXMLGregorianCalendarDT;
-use function App\UniCredit\IGFS_CG_API\parseXMLGregorianCalendarTZ;
-use const App\UniCredit\IGFS_CG_API\format;
+use function Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\parseXMLGregorianCalendarDT;
+use function Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\parseXMLGregorianCalendarTZ;
+use const Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\format;
 
 class IgfsUtils {
 

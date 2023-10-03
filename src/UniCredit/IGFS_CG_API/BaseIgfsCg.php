@@ -1,12 +1,12 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API;
-use src\UniCredit\IGFS_CG_API\ConnectionException;
-use src\UniCredit\IGFS_CG_API\IgfsException;
-use src\UniCredit\IGFS_CG_API\IgfsUtils;
-use src\UniCredit\IGFS_CG_API\IgfsMissingParException;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\ConnectionException;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsException;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsUtils;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsMissingParException;
 use SimpleXMLElement;
-use src\UniCredit\IGFS_CG_API\IOException;
-use src\UniCredit\IGFS_CG_API\ReadWriteException;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IOException;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\ReadWriteException;
 
 
 abstract class BaseIgfsCg {

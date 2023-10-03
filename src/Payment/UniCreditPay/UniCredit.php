@@ -2,7 +2,8 @@
 
 namespace Kpodjison\Unicreditpayment\Payment\UniCreditPay;
 use Kpodjison\Unicreditpayment\Payment\Payer;
-use src\UniCredit\IGFS_CG_API\init\IgfsCgInit;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init\IgfsCgInit;
+
 
 class UniCredit implements Payer
 {

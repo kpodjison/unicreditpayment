@@ -1,5 +1,5 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API\init;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init;
 
 //use App\IGFS_CG_API\init\BaseIgfsCgInit;
 use src\UniCredit\IGFS_CG_API\init\InitTerminalInfo;

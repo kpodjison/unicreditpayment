@@ -1,14 +1,14 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API\init;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init;
 use src\UniCredit\IGFS_CG_API\BaseIgfsCg;
 //use App\IGFS_CG_API\init\BaseIgfsCgInit;
 //use App\IGFS_CG_API\init\SelectorTerminalInfo;
 
-use src\UniCredit\IGFS_CG_API\IgfsMissingParException;
-use src\UniCredit\IGFS_CG_API\IgfsUtils;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsMissingParException;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsUtils;
 use SimpleXMLElement;
-use src\UniCredit\IGFS_CG_API\init\BaseIgfsCgInit;
-use src\UniCredit\IGFS_CG_API\init\SelectorTerminalInfo;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init\BaseIgfsCgInit;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init\SelectorTerminalInfo;
 
 class IgfsCgSelector extends BaseIgfsCgInit {
 
