@@ -25,11 +25,11 @@ class UniCredit implements Payer
         //Dynamic data
         $this->init->shopID = $paymentDetails['shop_id'];
         $this->init->shopUserRef = $paymentDetails['email'];
-        $this->init->amount = $paymentDetails['amount'];
-        $this->init->AddInfo1 = $paymentDetails['info1'];
-        $this->init->AddInfo2 = $paymentDetails['info2'];
-        $this->init->AddInfo3 = $paymentDetails['info3'];
-        $this->init->AddInfo4 = $paymentDetails['info4'];
+        $this->init->amount = $paymentDetails['amount'] ?? '';
+        $this->init->AddInfo1 = $paymentDetails['info1'] ?? '';;
+        $this->init->AddInfo2 = $paymentDetails['info2'] ?? '';;
+        $this->init->AddInfo3 = $paymentDetails['info3'] ?? '';;
+        $this->init->AddInfo4 = $paymentDetails['info4'] ?? '';;
     }
 
     //Method to Execute payment -- returns redirectUrl,paymentID,shopID to be used for payment verification

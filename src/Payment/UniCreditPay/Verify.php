@@ -30,7 +30,7 @@ class Verify
 
         //Error URL
         if (!$this->verify->execute()) {
-           return $this->verify->errorURL."?rc=" . $this->verify->rc . "&errorDesc=" . $this->verify->errorDesc;
+           return $this->verify->errorURL."?rc=" .$this->verify->rc . "&errorDesc=" . $this->verify->errorDesc;
         }
         // Success URL
         return $this->verify->esitoURL."?esito=OK&rc=" . $this->verify->rc . "&tranID=" .$this->verify->tranID .
