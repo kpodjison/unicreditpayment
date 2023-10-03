@@ -2,12 +2,12 @@
 namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init;
 
 //use App\IGFS_CG_API\init\BaseIgfsCgInit;
-use src\UniCredit\IGFS_CG_API\init\InitTerminalInfo;
-use src\UniCredit\IGFS_CG_API\init\BaseIgfsCgInit;
-use src\UniCredit\IGFS_CG_API\Level3Info;
-use src\UniCredit\IGFS_CG_API\MandateInfo;
-use src\UniCredit\IGFS_CG_API\IgfsMissingParException;
-use src\UniCredit\IGFS_CG_API\IgfsUtils;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init\InitTerminalInfo;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init\BaseIgfsCgInit;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\Level3Info;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\MandateInfo;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsMissingParException;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsUtils;
 use const App\UniCredit\IGFS_CG_API\init\i;
 
 class IgfsCgInit extends BaseIgfsCgInit {
