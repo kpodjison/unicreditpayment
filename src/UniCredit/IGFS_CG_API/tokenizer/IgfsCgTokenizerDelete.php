@@ -1,8 +1,8 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API\tokenizer;
-use src\UniCredit\IGFS_CG_API\IgfsMissingParException;
-use src\UniCredit\IGFS_CG_API\IgfsUtils;
-use src\UniCredit\IGFS_CG_API\tokenizer\BaseIgfsCgTokenizer;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\tokenizer;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsMissingParException;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsUtils;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\tokenizer\BaseIgfsCgTokenizer;
 
 class IgfsCgTokenizerDelete extends BaseIgfsCgTokenizer {
 

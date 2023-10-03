@@ -1,7 +1,7 @@
 <?php
 
 namespace Kpodjison\Unicreditpayment\Payment\UniCreditPay;
-use src\UniCredit\IGFS_CG_API\init\IgfsCgVerify;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init\IgfsCgVerify;
 
 class Verify
 {

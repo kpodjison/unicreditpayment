@@ -1,7 +1,7 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API;
 use SimpleXMLElement;
-use src\UniCredit\IGFS_CG_API\IgfsUtils;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsUtils;
 
 class Level3InfoProduct {
 

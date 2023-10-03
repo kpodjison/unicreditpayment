@@ -1,12 +1,12 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API\init;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init;
 //use App\IGFS_CG_API\init\BaseIgfsCgInit;
-use src\UniCredit\IGFS_CG_API\BaseIgfsCg;
-use src\UniCredit\IGFS_CG_API\IgfsMissingParException;
-use src\UniCredit\IGFS_CG_API\IgfsUtils;
-use src\UniCredit\IGFS_CG_API\init\BaseIgfsCgInit;
-use src\UniCredit\IGFS_CG_API\Level3Info;
-use src\UniCredit\IGFS_CG_API\Entry;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\BaseIgfsCg;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsMissingParException;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsUtils;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\init\BaseIgfsCgInit;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\Level3Info;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\Entry;
 use Exception;
 use SimpleXMLElement;
 

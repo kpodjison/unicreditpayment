@@ -1,6 +1,6 @@
 <?php
-namespace src\UniCredit\IGFS_CG_API;
-use src\UniCredit\IGFS_CG_API\IgfsUtils;
+namespace Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API;
+use Kpodjison\Unicreditpayment\UniCredit\IGFS_CG_API\IgfsUtils;
 
 class MandateInfo {
 
