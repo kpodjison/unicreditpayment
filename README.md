@@ -38,7 +38,7 @@ ERROR_URL = "http://127.0.0.1:8000/your-project/error"
         "info3" => 'paymentinfo3',  //optional parameter
         "info4" => 'paymentinfo4',  //optional parameter
     ]);
-    return response()->json($payManager->pay($uni));
+    return response()->json($payManager->pay($uni)); //returns redirectUrl,paymentID,shopID to be used for payment verification
 
 ```
 
@@ -48,8 +48,8 @@ ERROR_URL = "http://127.0.0.1:8000/your-project/error"
             'shop_id' => 'fa37729dd-737c-4122-b53e-771c8f91a2aa',
             'payment_id' =>"002580908057104525647",
         ]);
-        return response()->json($verify->verifyPay());
+        return response()->json($verify->verifyPay()); //return success url
  ```
-**💡**: shop_id and payment_id are returned when a payment is successful. These should be used to create an instance of Verify() as showed above
+**💡**: shop_id and payment_id are returned when a payment is successful. Pass shopID and paymentID (returned by pay function) as arguments to create an object of class Verify as showed above
 
  
